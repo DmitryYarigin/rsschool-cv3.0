@@ -49,15 +49,17 @@ table {
 /* ================================== */
 
 body {
-    background-color: rgb(218, 164, 164);
+    background-color: rgb(223, 205, 205);
+    font-size: 18px;
   }
   
   .wrapper {
     border: 2px #ecf1f5 solid;
+    border-radius: 5px;
     font-family: Arial, Verdana, sans-serif;
     line-height: 1.5;
-    margin: 20px auto;
-    width: 80%;
+    margin: 2px auto;
+    max-width: 1280px;
     box-shadow: 10px 10px 20px 20px rgb(0 0 0 / 0.23);
   }
   
@@ -69,36 +71,48 @@ body {
     padding: 10px;
     display: flex;
     flex-direction: column;
-    text-align: center;
+   
     border: 1px green solid;
     width: 26%;
     background-color: rgba(180, 216, 122, 0.685);
   }
+
+  h3{
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+  }
   
+  section{
+    margin-bottom: 20px;
+  }
   .rightColumn {
     border: 1px yellow solid;
     padding: 10px;
     width: 74%;
-    height: 600px;
     background-color: rgb(121, 189, 160);
   }
   
-  .footer {
-    border: 1px red solid;
-  }
+ 
   
   header{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
   }
   
   header img{
-    border: 10px solid green;
-    border-radius: 50%;
-  
+    border: 1px solid black;
+    border-radius: 10%;
+    object-fit:cover;
+    margin-top: 20px;
   }
   
   header h1 {
     text-transform: uppercase;
+    font-weight: 700;
   }
   
   main ul {
@@ -122,16 +136,25 @@ body {
   
   .subHeader{
     display: flex;
+    align-items: start;
+    margin-bottom: 20px;
+  }
+
+  .subHeader h3{
+    text-align: left;
+  }
+
+  .aboutMyself{
+    padding: 20px;
   }
   
   .rightColumn h3{
-    padding-bottom: 32px;
     flex: 1;
     vertical-align: middle;
     text-transform: uppercase;
     letter-spacing: 1px;
     color: #777777;
-    border-bottom: 2px solid black;
+    border-bottom: 3px solid black;
   }
   
   .courses ul{
@@ -145,12 +168,9 @@ body {
   
   pre {
     padding-top: 20px;
-      width: 100%;
-      padding: 0;
-      margin: 0;
       overflow: auto;
       overflow-y: hidden;
-      font-size: 12px;
+      font-size: 15px;
       line-height: 20px;
       background: #efefef;
       border: 2px solid rgb(19, 18, 18);
@@ -159,14 +179,24 @@ body {
       color: #333;
   }
   
-  .footer{
-    background-color: #fff;
+  footer{
+    background-color: rgb(234, 234, 241);
+    height: 200px;
+    color: #fff;
+    max-width: 100%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
   }
   
-  .footer a{
+  nav{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    color: #000;
+  }
+
+  nav a{
     text-decoration: none;
     color: darkblue
   }
