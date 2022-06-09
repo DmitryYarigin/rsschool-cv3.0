@@ -1,2 +1,2 @@
 https://DmitryYarigin.github.io/rsschool-cv/cv
-https://DmitryYarigin.github.io/rsschool-cv/
+https://DmitryYarigin.github.io/rsschool-cv3.0/
